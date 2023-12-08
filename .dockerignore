@@ -1,0 +1,12 @@
+# flyctl launch added from .idea\.gitignore
+# Default ignored files
+.idea\shelf
+.idea\workspace.xml
+
+# flyctl launch added from .ruff_cache\.gitignore
+.ruff_cache\**\*
+
+# flyctl launch added from source\venv\.gitignore
+# created by virtualenv automatically
+source\venv\**\*
+fly.toml

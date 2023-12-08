@@ -1,0 +1,10 @@
+
+black~=23.9.1
+colorama~=0.4.6
+nicegui~=1.3.13
+pydantic~=2.3.0
+ruff~=0.1.7
+uvicorn~=0.22.0
+netifaces~=0.11.0
+fastapi
+starlette

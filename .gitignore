@@ -1,0 +1,6 @@
+.nicegui
+.ruff_cache
+.idea
+*__pycache*
+*example*.py
+*example*.sh
