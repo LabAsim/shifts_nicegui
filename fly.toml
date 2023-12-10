@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for my-test-app-name on 2023-11-29T12:55:44+02:00
+# fly.toml app configuration file generated for shifts on 2023-12-10T21:41:03+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -18,6 +18,6 @@ primary_region = "ams"
   processes = ["app"]
 
 [[vm]]
-  size = "shared-cpu-1x"
-  memory = "256mb"
-  processes = ["app"]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 256
